@@ -1,0 +1,94 @@
+.a1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #B75CFF;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.a2 {
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0px 2px 8px rgba(183, 92, 255, 0.3); /* Minimal shadow */
+}
+
+form {
+  width: 100%;
+}
+
+/* Text fields with no borders */
+.MuiTextField-root {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.MuiOutlinedInput-root {
+  color: #fff;
+  border: none !important; /* Remove border */
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important; /* Remove outline */
+}
+
+.MuiOutlinedInput-input {
+  color: #fff !important;
+}
+
+.MuiInputLabel-root {
+  color: #fff !important;
+}
+
+/* Only the login button has gradient */
+.MuiButton-containedPrimary {
+  background: linear-gradient(135deg, #B75CFF 0%, #671AE4 100%) !important;
+  color: #fff !important;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 0.75rem;
+  transition: opacity 0.3s, transform 0.2s;
+}
+
+.MuiButton-containedPrimary:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* Other buttons are simple white */
+.MuiButton-text {
+  color: #fff !important;
+}
+
+@media (max-width: 640px) {
+  .a1 {
+      position: relative;
+      top: 2rem;
+      left: 0;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .a1 {
+      font-size: 3rem;
+      position: relative;
+      top: 2rem;
+      left: 0;
+  }
+
+  .a2 {
+      transform: scale(1.1);
+      margin-bottom: 8rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .a1 {
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      width: 100%;
+      text-align: center;
+  }
+}

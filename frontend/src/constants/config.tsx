@@ -1,0 +1,1 @@
+export const server="https://backend-e6zm.onrender.com"
