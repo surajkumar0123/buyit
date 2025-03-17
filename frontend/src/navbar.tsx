@@ -32,7 +32,7 @@ const Navbar = (hello: any) => {
         <img
           src={logo}
           alt="Logo"
-          className="h-10 w-auto sm:h-15 md:h-20 lg:h-25 xl:h-35"
+          className="h-10 w-auto sm:h-10 md:h-15 lg:h-20 xl:h-20"
         />
         <div className="hidden md:flex bg-[#1F1F1F] text-white rounded-full px-6 py-3.5 gap-6 items-center">
           <a href="/" className="hover:text-gray-300 font-medium">
