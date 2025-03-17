@@ -59,9 +59,7 @@ const deletFilesFromCloudinary = async (public_ids) => {
 const allowedOrigins = [
   process.env.CLIENT_URL,
   "http://localhost:5173",
-  "https://buyit.shop",
-  "https://www.buyit.shop",
- "https://buyit-mu.vercel.app",
+"https://buyit-liard.vercel.app",
 ];
 
 const corsOptions = {
