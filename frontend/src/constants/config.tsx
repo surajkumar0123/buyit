@@ -1,1 +1,1 @@
-export const server="https://backend-e6zm.onrender.com"
+export const server="https://buyit-mxaz.onrender.com"
